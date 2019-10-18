@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuu.mybatis_T.mapper.Pjxxas">
+	<select id="selectAll" resultType="Pjxxas_ReloadItems">
+		SELECT
+		Name,UpdateTime,Arg,Description from AS_ReloadItems
+	</select>
+	<update id="update_server"
+		parameterType="Pjxxas_ReloadItems">
+		update AS_ReloadItems SET
+		UpdateTime=#{UpdateTime}
+		where Name=#{Name}
+	</update>
+
+</mapper>
