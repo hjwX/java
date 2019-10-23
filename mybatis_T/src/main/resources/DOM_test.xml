@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<properties lange="EN">
+		<property>
+			<name>DOM_test</name>
+		</property>
+	</properties>
+	<dir>
+		<path>java_path</path>
+		<content>content</content>
+	</dir>
+	<text_node>text_node</text_node>
+</root>
